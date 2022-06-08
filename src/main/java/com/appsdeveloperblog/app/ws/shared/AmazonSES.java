@@ -10,7 +10,9 @@ import com.amazonaws.services.simpleemail.model.Message;
 import com.amazonaws.services.simpleemail.model.SendEmailRequest;
 import com.amazonaws.services.simpleemail.model.SendEmailResult;
 import com.appsdeveloperblog.app.ws.shared.dto.UserDto;
+import org.springframework.stereotype.Service;
 
+@Service
 public class AmazonSES {
 	// This address must be verified with Amazon SES.
 	final String FROM = "vpaklatzis@gmail.com";
